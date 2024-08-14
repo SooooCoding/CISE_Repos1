@@ -23,7 +23,7 @@ class App extends Component<{}, State> {
     return (
       <div>
         <p>Count: {this.state.count}</p>
-        <button className="increment" onClick={this.increment}>
+        <button className="increment" onClick={this.icrement}>
           Increment count
         </button>
       </div>
